@@ -1,0 +1,25 @@
+/* 
+https://github.com/mrcodedev/frontend-developer-resources(el camino del frontend)
+
+
+
+https://www.canva.com/design/DAFGTTSfVF0/yCYc8VX3oU7q2nwL3C0orA/edit#
+
+
+
+ */
+
+
+ .container{
+    border: 1px solid brown;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background-color:black ;
+ }
+
+
+ .on{
+    background-color: beige;
+ }

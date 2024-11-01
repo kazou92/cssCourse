@@ -1,0 +1,127 @@
+                                            RECURSOS
+
+        Boxicons:https://boxicons.com/
+        COOLORS:https://coolors.co/f1e0c5-3d348b-7678ed-f35b04-816c61  
+        WEB GRADIENT: https://webgradients.com/     
+        Google Fonts: https://fonts.google.com/   
+        WAVE : https://getwaves.io/   
+        Front end mentor: https://www.frontendmentor.io/profile/kazou92                       
+
+
+
+/* css:(cascading style sheets)es un lenguaje de estilos en cascada este lenguaje nos permite dar estilos  a nustro codigo html por medio de regla de estilos,que conlleva a un selector,propiedad y valor ejemplo : 
+selector{
+    propiedad : valor
+}
+
+
+selector :es la primera parte de una regla CSS, define que elemento de html sera modificado.
+
+selector de tipo o selector nombre o de etiqueta: porque selecciona una etiqueta directamente de html mediante del nombre de la etiqueta que quermos modificar  
+
+selector universal : permite seleccionar a todos los elementos del archivos html
+
+NB : en cada selector viene por defecto un selector universal es decir que modifica todos los elementos de la etiqueta o de la clase seleccionada
+
+
+selector combinadores : los selectores combinadores se llaman asi por q combinann mas de un selectores basico que ya hemos visto permite mas espicifico sobre que elemento q queremeos seleccionar
+
+
+    a- combinador de desciendientes
+     este combinador representa por un espacio en blanco
+     donde el primer selector debe ser el ancestro del segundo selector
+     
+    b-combinador de hijo directo 
+     este combinador es representado por signo major que(>) igual combina dos selectores donde el primer selector debe ser padre directo de segundo
+
+    c-combinador de hermano adyacente 
+      por que nos pueden ayudar a crear animaciones con CSS
+      y es representado por un signo de suma (+)
+
+      selecciona justo el hermano siguiente o la clase del hermano siguiente
+
+      NB: display none quita el elemento o la propiedad  css
+      NB: pseudo-clase en un comportamiento en navegador
+
+
+   d- combinador de hermano generales
+    este combinador es representado por un signo de virgulilla
+     este signo combinado dos selectores donde el segundo selector debe ser un hermano siguiente al primer selector 
+
+
+     SELECTOR DE ATRIBUTO
+      un selector de atributo nos permite seleccionar a todos los elementos a traves de los atributos mediante de colchetes [atributos]
+
+      ~ coidencidenci tiene que estar tal cual sin modification
+      ^ coondencia como prefijo
+      $  coondencia como  sufijo no importa que este alterado
+      * coindencia en cualquier parte no importa que este alterado 
+
+
+
+                           HERENCIA Y ESPECIFIDAD
+
+
+           SELECTOR TIPO O PSEUDO_ELEMENTO:1
+           SELECTOR CLASE:10
+           SELECTOR ID:100
+           ESTILO EN LINEA:10000(GANA A TODOS) 
+           
+           
+
+           la herencia es la capacidad a los hijos de heredar ciertos estilos(no todos) a los padres
+
+
+           éQueé es y para que sirve BEM?
+
+BEM (Block Element Modifier) es una metodologia que nos proporciona una manera
+de nombrar a nuestras clases en HTML para posteriormente poder usarlo en CSS,
+BEM nos ayudara a mantener nuestro cédigo flexible, modular y sencillo. Sobre todo
+a lidiar con problemas sobre especificidad.
+
+BEM significa Block Element Modifier, esto es debido a que todas las clases que
+escribiremos se regiran por estas 3 partes.
+
+
+
+
+Modificador
+Los modificadores son usados en elementos o bloques, se usan para representar una
+caracteristica diferente que tendra el modificador 0 elemento.
+
+Los modificadores tendran el nombre del bloque o del elemento, después otra vez el
+nombre del elemento, dos guiones medios y la caracteristica diferente que tendra
+este bloque o elemento.
+
+Ejemplo: "boton—active" "header—wave"
+
+
+
+para dar un margin auto tiene que complir dos condiciones
+
+1- un elemento en block  o darle un display block
+2-un width definido
+
+
+                           BOX MODEL
+  
+                           
+
+todos los elementos en html son considerados como caja
+ 
+
+ hay dos tipos de elemnetos
+ 1- en linea 
+ 2 en block es  decir puede recibir todos las propiedades del box model que son margin en vertical(margin top y margin botton),width,heigth
+ 
+ caracteristica :ELEMENTO EN BLOCK:  ocupan todo su contenido y generan un salto de linea y pueden recibir todas las propiedades del box model
+
+
+
+ las imagenes tiene un comportamento de un elemento de inline-block porque se pone de 
+
+
+
+
+ max-width: es el hecho de que se deja de funcionar  la condicion
+ min-width: es el hecho de que se empieza a aplicar la condicion
